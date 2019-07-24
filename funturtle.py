@@ -1,0 +1,30 @@
+import turtle
+turtle.bgcolor('purple')
+
+right = turtle.Turtle()
+right.color("blue")
+right.pensize(6)
+right.pencolor('green')
+right.shape('arrow')
+right.right(90)
+right.forward(150)
+right.left(90)
+right.forward(75)
+right.left(90)
+right.pencolor('blue')
+right.forward(150)
+
+left = turtle.Turtle()
+left.color("white")
+left.pensize(2)
+left.pencolor('yellow')
+left.shape('circle')
+left.left(90)
+left.forward(150)
+left.left(90)
+left.forward(75)
+left.left(90)
+left.pencolor('white')
+left.forward(150)
+
+
